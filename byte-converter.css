@@ -1,3 +1,19 @@
+@media only screen and (max-width: 767px) {
+  body {
+    margin: auto;
+    transform: scale(0.5);
+    max-width: 767px;
+  }
+  
+  #input, #check {
+    margin: auto;
+    position: absolute;
+    right: 22vw;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 body {
   margin: 0;
   auto: 0;
